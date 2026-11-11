@@ -1,6 +1,5 @@
 /**
- * Place assignment PDFs under public/assignments/<subject-folder>/
- * Set fileAvailable: true only after the file exists at filePath.
+ * Assignment PDFs are stored in public/assignments/
  */
 export const assignmentSubjects = [
   {
@@ -10,11 +9,12 @@ export const assignmentSubjects = [
     assignments: [
       {
         id: 'coa-assignment-1',
-        title: 'Computer Organization and Architecture (COA)',
+        title: 'Computer Organization and Architecture',
         number: '1',
-        filePath: '/assignments/coa/Assignment 1.pdf',
+        description: 'COA Academic Assignment 1',
+        filePath: '/assignments/Assignment%201.pdf',
         fileName: 'Assignment 1.pdf',
-        fileAvailable: false,
+        fileAvailable: true,
       },
     ],
   },

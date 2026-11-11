@@ -22,8 +22,11 @@ const navGroups = [
   {
     id: 'journal', label: '03 / JOURNAL',
     items: [
-      { to: '/gallery', label: 'Gallery' }, { to: '/resume', label: 'Resume' },
-      { to: '/assignments', label: 'Assignments' }, { to: '/contact', label: 'Contact' },
+      { to: '/gallery', label: 'Gallery' },
+      { to: '/resume', label: 'Resume' },
+      { to: '/assignments', label: 'Assignments' },
+      { to: '/case-studies', label: 'Case Studies' },
+      { to: '/contact', label: 'Contact' },
     ],
   },
   { id: 'lab', label: '04 / LAB', items: [{ to: '/coa', label: 'COA Learning Lab' }] },

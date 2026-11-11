@@ -16,6 +16,7 @@ import ProjectsPage from './pages/Projects.jsx'
 import ResumePage from './pages/Resume.jsx'
 import Skills from './pages/Skills.jsx'
 import Welcome from './pages/Welcome.jsx'
+import CaseStudies from './pages/CaseStudies.jsx'
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="resume" element={<ResumePage />} />
           <Route path="coa" element={<CoaLab />} />
           <Route path="assignments" element={<Assignments />} />
+          <Route path="case-studies" element={<CaseStudies />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>
